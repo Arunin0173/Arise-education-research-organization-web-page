@@ -358,7 +358,7 @@
         flex-direction: column;
         background-color: black;
         color: white;
-        border-bottom: white;
+        border-bottom:1px solid white;
     }
     .container4 .com{
         border: 1px solid white;
