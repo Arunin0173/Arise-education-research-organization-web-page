@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+
+    
+}
+.container1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+   
+}
+.container1 .img2{
+    width: 150px;
+
+   
+}
+.container .img1{
+    display: none;
+}
+.container1 .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    
+   
+}
+.container1 .btn{
+    display: none;
+}
+.container1 .nav a{
+    text-decoration: none;
+    color: black;
+    transition: all 800ms;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+   
+
+}
+.container1 .nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+.container2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: white;
+    width: 100%;
+}
+.container2 .box2{
+    place-items: center;
+    width: 50%;
+}
+.container2 .box1{
+    width: 50%;
+}
+
+.container2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    object-fit: cover;
+    
+}
+.container2 .box1 .txt2{
+    margin-top: 10px;
+}
+.container2 .box1  .txt1{
+    margin-top: 10px;
+}
+.container2 .box1 button{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    transition: all 800ms;
+    border: 1px solid black;
+}
+.container2 .box1 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.container3{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid black;
+
+}
+.container3 .box1 img{
+    width: 500px;
+    height:300px ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.container3 .box2{
+    width: 50%;
+}
+.container3 .box2 .txt2{
+    margin-top: 10px;
+}
+
+.container4{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 100%;
+    gap: 10px;
+}
+.container4 .com{
+    
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    transition: all 800ms;
+}
+.container4 .com:hover{
+    background-color: black;
+    color: white;
+}
+.container5{
+    
+    grid-template-columns: repeat(4,50%);
+    grid-template-rows: repeat(4,auto);
+    display: grid;
+    row-gap: 10px;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid black;
+   
+
+}
+.container5 .box1{
+    grid-column: 1/span 2;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.container5 .box1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+.container5 .box2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    grid-row: 2 /span 1;
+    grid-column: 2/span 2;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+
+    
+   
+}
+.container5 .box2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
+.container5 .box3{
+    grid-row: 3/span 1;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    grid-column: 1/span 2;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+    
+    
+    
+   
+}
+.container5 .box3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.container5 .box4{
+    display: flex;
+    justify-content: space-between;
+    grid-row: 4/span 1;
+    grid-column: 2/span 2;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+
+
+   
+    
+}
+.container5 .box4 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.container6{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+   
+}
+.container6 .box2{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+.container6 .box1{
+   width: 40%;
+}
+.container6 .icon{
+    display: none;
+}
+
+.container6 .box2 a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.container6 .box3 iframe{
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+@media only screen and (min-width:300px) and (max-width:780px){
+    
+    .container{
+        width: fit-content;
+        height: min-content;
+        position: relative;
+        z-index: 10;
+        justify-content: space-between;
+        /* background-color: white; */
+    }
+    .container1{
+        background-color:black;
+        border-bottom: 1px solid white;
+    }
+    /* .container1 .nav {
+        display: none; 
+    }*/
+    .container1 .nav{
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+         position: absolute;
+        right: 0px;
+        top: 80px;
+    }
+    .container1 .nav a{
+        padding: 10px;
+        color: white;
+    }
+    .container1 .btn{
+        display: inline;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+    }
+    .container1 .img1{
+        display: inline;
+        width: 120px;
+    }
+    .container1 .img2{
+        display: none;
+        
+    }
+
+    .container2{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .container2 .box1{
+        width: 100%;
+    }
+    .container2 .box2{
+        width: 100%;
+    }
+    .container2 img{
+        width: 250px;
+        height: 150px;
+    }
+    .container3{
+        flex-direction: column;
+        width: fit-content;
+        background-color: black;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+    .container3 .box1 img{
+        width: 250px;
+        height: 150px;
+    }
+    .container3 .box2{
+        width: 100%;
+    }
+    .container4{
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        border-bottom: white;
+    }
+    .container4 .com{
+        border: 1px solid white;
+    }
+    .container4 .com:hover{
+        background-color: white;
+        color: black;
+    }
+    .container5{
+        flex-direction: column;
+        background-color: black;
+        color: white;
+    }
+    .container5 .box1{
+        flex-direction: column-reverse;
+        border: 1px solid white;
+        grid-column: 1/span 4;
+    }
+    .container5 .box2{
+        flex-direction:column ;
+        border: 1px solid white;
+        grid-column: 1/span 4;
+    }
+    .container5 .box3{
+        flex-direction: column-reverse;
+        border: 1px solid white;
+        grid-column: 1/span 4;
+    }
+    .container5 .box4{
+        flex-direction: column;
+        border: 1px solid white;
+        grid-column: 1/span 4;
+    }
+
+
+
+
+
+    .container6{
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        gap: 10px;
+        
+    }
+    .container6 .box1{
+        width: 80%;
+
+    }
+    .container6 .icon{
+        display: inline;
+    }
+    .container6 .box2 a{
+        display: none;
+    }
+}
